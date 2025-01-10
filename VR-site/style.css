@@ -1,0 +1,129 @@
+@import url('https://fonts.cdnfonts.com/css/nasalization-2');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    
+    font-family: "Poppins";
+    background-color: rgb(239, 237, 237);
+    margin: 1rem 3rem 0 3rem;
+}
+
+main {
+    display: block;
+    justify-items: center;
+    text-align: center;  
+    
+}
+
+section {
+    min-height: 100vh;
+}
+
+p {
+    font-size: .85rem;
+    font-weight: 400;
+    max-width: 400px
+}
+
+.img-class {
+    
+    height: 35%;
+    width: 35%;
+    
+
+    img {
+        width: 100%;
+        
+    }
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-size: .8rem
+}
+
+.cta {
+    padding: 10px;
+    background-color:  black;
+    color: rgb(239, 237, 237);
+    border-radius: 15px;
+    width: fit-content;
+    background: linear-gradient(180deg, black, rgb(87, 86, 86) )
+}
+
+.index-text {
+    justify-items: center;
+
+    h1 {
+        line-height: .7;
+        font-size: 5rem;
+        font-family: "Nasalization";
+        font-weight: 500;
+        background: linear-gradient(180deg, black, rgb(87, 86, 86) );
+        background-clip: text;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+        font-weight: 500
+    }
+
+    /* .cta {
+        margin: .2rem;
+    } */
+
+    
+}
+
+.explore1 {
+    margin-top: 5%;
+    
+}
+
+.main-item {
+    padding: .9rem
+}
+
+.gradient-pic {
+    opacity: .5;
+    z-index: -1;
+    box-shadow: 0 0 40px rgb(188, 187, 187);
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 200px;
+    
+        
+}
+#gradient-pic1 {
+    height: 500px;
+    width: 500px;
+   
+}
+#gradient-pic2 {
+    height: 700px;
+    width: 700px;
+}
+#gradient-pic3 {
+    height: 900px;
+    width:1000px;
+}
+
+/* Product Section */
+
